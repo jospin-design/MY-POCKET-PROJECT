@@ -213,7 +213,7 @@ class Dashboard:
         # plt.show()
         canvas1 = FigureCanvasTkAgg(chart,self.bodyFrame4)
         canvas1.draw()
-        canvas1.get_tk_widget().pack(padx=5,pady=5,side="left",fill="y")
+        canvas1.get_tk_widget().place(width=1030,height=300)
 
         
         
